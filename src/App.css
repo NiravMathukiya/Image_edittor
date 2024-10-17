@@ -1,0 +1,80 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 90%;
+  max-width: 800px;
+}
+
+.title {
+  text-align: center;
+  color: #333;
+}
+
+.upload-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.upload-button:hover {
+  background-color: #0056b3;
+}
+
+.canvas-container {
+  display: flex;
+  justify-content: center;
+}
+
+canvas {
+  border: 1px solid #ccc;
+}
+
+/* App.css */
+
+.canvas-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  height: 100px;
+  width: 100px;
+}
+
+.canvas {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: crosshair; /* Show a crosshair cursor for drawing */
+}
+
+.overlay-info {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
