@@ -56,13 +56,13 @@ const App = () => {
         </div>
 
         {/* Right side - Drawing Tools */}
-        <div className="w-full md:w-1/4">
-          <DrawingTools
-            setDrawingMode={setDrawingMode}
-            setLineWidth={setLineWidth}
-            setColor={setColor}
-          />
-        </div>
+          <div className="w-full md:w-1/4">
+            <DrawingTools
+              setDrawingMode={setDrawingMode}
+              setLineWidth={setLineWidth}
+              setColor={setColor}
+            />
+          </div>
       </div>
     </div>
   );
